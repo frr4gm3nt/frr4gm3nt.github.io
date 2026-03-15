@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abhishek M L | Red Team & VAPT</title>
+  <meta name="description" content="Abhishek M L – Security Analyst focused on red teaming, VAPT, web/API/mobile pentesting and LLM/AI security testing." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body class="theme-dark">
+
+  <!-- ── HEADER ── -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand-prompt">abhishek@redteam</span>
+        <span class="brand-sep">:</span>
+        <span class="brand-path">~/portfolio</span>
+        <span class="brand-cursor">▋</span>
+      </div>
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#profile">/profile</a></li>
+          <li><a href="#engagements">/engagements</a></li>
+          <li><a href="#labs">/labs</a></li>
+          <li><a href="#certs">/certs</a></li>
+          <li><a href="#writing">/writing</a></li>
+          <li><a href="#contact">/contact</a></li>
+        </ul>
+        <a href="https://drive.google.com/uc?export=download&id=1uWiiZgE2S1hVLwxZsFG_g4KNX1Epmj5O" class="btn btn-outline btn-nav" target="_blank" rel="noopener noreferrer">
+          resume.pdf
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ── HERO ── -->
+    <section class="hero" id="profile">
+      <div class="container hero-grid">
+
+        <div class="terminal-card" aria-label="Hacker terminal">
+          <div class="terminal-header">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-amber"></span>
+            <span class="dot dot-green"></span>
+            <span class="terminal-title">bash — abhishek@redteam</span>
+          </div>
+          <div class="terminal-body">
+            <pre id="terminal-output"></pre>
+            <span class="terminal-cursor" aria-hidden="true"></span>
+          </div>
+        </div>
+
+        <aside class="hero-details">
+          <p class="hero-tagline">Security Analyst · Red Team & VAPT</p>
+          <h1>Abhishek<br>M L</h1>
+          <p class="hero-blurb">
+            I break web, API, mobile, network, cloud and LLM/AI systems — then help teams fix what actually matters.
+          </p>
+
+          <dl class="hero-meta">
+            <div>
+              <dt>Role</dt>
+              <dd>Security Analyst @ Pragya Cyber</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>VAPT · Red Teaming · LLM Security</dd>
+            </div>
+            <div>
+              <dt>Location</dt>
+              <dd>Bengaluru, India</dd>
+            </div>
+            <div>
+              <dt>Background</dt>
+              <dd>B.E AI/ML '26</dd>
+            </div>
+          </dl>
+
+          <div class="stat-row">
+            <div class="stat-pill"><span class="stat-num">4</span><span class="stat-label">Certs</span></div>
+            <div class="stat-pill"><span class="stat-num">5+</span><span class="stat-label">Domains</span></div>
+            <div class="stat-pill"><span class="stat-num">10</span><span class="stat-label">Articles</span></div>
+            <div class="stat-pill"><span class="stat-num">2</span><span class="stat-label">Conf Talks</span></div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#engagements" class="btn btn-primary">view engagements</a>
+            <a href="#labs" class="btn btn-ghost">see labs</a>
+          </div>
+        </aside>
+      </div>
+
+      <!-- tool ticker -->
+      <div class="ticker-wrap" aria-hidden="true">
+        <div class="ticker-track">
+          <span>Burp Suite</span><span class="sep">◆</span>
+          <span>Splunk SIEM</span><span class="sep">◆</span>
+          <span>Wireshark</span><span class="sep">◆</span>
+          <span>Postman</span><span class="sep">◆</span>
+          <span>Nessus</span><span class="sep">◆</span>
+          <span>Snort IDS/IPS</span><span class="sep">◆</span>
+          <span>YARA Rules</span><span class="sep">◆</span>
+          <span>Sysmon</span><span class="sep">◆</span>
+          <span>FTK Imager</span><span class="sep">◆</span>
+          <span>OpenVAS</span><span class="sep">◆</span>
+          <span>AWS Security</span><span class="sep">◆</span>
+          <span>LLM / AI Security</span><span class="sep">◆</span>
+          <span>OWASP Top 10</span><span class="sep">◆</span>
+          <span>Mobile App Security</span><span class="sep">◆</span>
+          <!-- dupe for seamless loop -->
+          <span>Burp Suite</span><span class="sep">◆</span>
+          <span>Splunk SIEM</span><span class="sep">◆</span>
+          <span>Wireshark</span><span class="sep">◆</span>
+          <span>Postman</span><span class="sep">◆</span>
+          <span>Nessus</span><span class="sep">◆</span>
+          <span>Snort IDS/IPS</span><span class="sep">◆</span>
+          <span>YARA Rules</span><span class="sep">◆</span>
+          <span>Sysmon</span><span class="sep">◆</span>
+          <span>FTK Imager</span><span class="sep">◆</span>
+          <span>OpenVAS</span><span class="sep">◆</span>
+          <span>AWS Security</span><span class="sep">◆</span>
+          <span>LLM / AI Security</span><span class="sep">◆</span>
+          <span>OWASP Top 10</span><span class="sep">◆</span>
+          <span>Mobile App Security</span><span class="sep">◆</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ENGAGEMENTS ── -->
+    <section id="engagements" class="section">
+      <div class="container section-inner">
+        <header class="section-header">
+          <div class="section-label">client work</div>
+          <h2>Engagements</h2>
+          <p>Selected real-world assessments and operations.</p>
+        </header>
+
+        <div class="engagements-grid">
+          <article class="eng-card">
+            <div class="eng-card-top">
+              <span class="eng-type client">client</span>
+              <div class="eng-icon">🤖</div>
+            </div>
+            <h3>LLM Security Assessment — Chat Assistant</h3>
+            <p class="eng-subtitle">Red team style assessment · LLM / AI security</p>
+            <p class="eng-body">
+              Evaluated a LLM assistant for prompt injection, jailbreaks, data exfiltration and tool abuse. Executed practical attack chains end-to-end.
+            </p>
+            <ul class="eng-highlights">
+              <li>Bypassed guardrails to access internal-only information.</li>
+              <li>Delivered actionable fixes across model config, architecture and monitoring.</li>
+            </ul>
+            <footer class="eng-footer">
+              <span class="tag">LLM security</span>
+              <span class="tag">prompt injection</span>
+              <span class="tag">red team</span>
+            </footer>
+          </article>
+
+          <article class="eng-card">
+            <div class="eng-card-top">
+              <span class="eng-type client">client</span>
+              <div class="eng-icon">🕸️</div>
+            </div>
+            <h3>Web Security Assessment — SaaS</h3>
+            <p class="eng-subtitle">Web pentest</p>
+            <p class="eng-body">
+              End-to-end VAPT on a multi-tenant SaaS.
+              Focused on authentication, authorization and business-logic abuse — not just scanner noise.
+            </p>
+            <ul class="eng-highlights">
+              <li>Chained path traversal + weak authentication into <b>Privilege Escalation</b></li>
+              <li>Chained path traversal + misconfiguration into <b>S3 bucket access</b>.(With Read and Write Permission)</li>
+              <li>Delivered dev-friendly report with PoCs.</li>
+            </ul>
+            <footer class="eng-footer">
+              <span class="tag">web vapt</span>
+              <span class="tag">chaining vulnerability</span>
+              <span class="tag">S3 Bucket Takeover</span>
+              <span class="tag">Privilege Escalation</span>
+            </footer>
+          </article>
+        </div>
+
+
+    <!-- ── LABS ── -->
+    <section id="labs" class="section section-alt">
+      <div class="container section-inner">
+        <header class="section-header">
+          <div class="section-label">offensive research</div>
+          <h2>Labs & Experiments</h2>
+          <p>Where I break my own stuff first — all offensive-focused.</p>
+        </header>
+
+        <div class="labs-grid">
+          <article class="lab-card">
+            <div class="lab-header">
+              <span class="lab-badge">AD / Network</span>
+              <h3>Active Directory Red Team Lab</h3>
+            </div>
+            <p>
+              Full domain environment built to practise end-to-end kill chains — initial access, internal recon,
+              lateral movement, privilege escalation and domain compromise.
+            </p>
+            <ul>
+              <li>Phishing → foothold → Kerberoasting → DA takeover.</li>
+              <li>Living Off the Land</li>
+              <li>Initial Foothold</li>
+            </ul>
+            <div class="lab-tags">
+              <span class="tag">active directory</span>
+              <span class="tag">lateral movement</span>
+              <span class="tag">kerberoasting</span>
+            </div>
+          </article>
+
+          <article class="lab-card">
+            <div class="lab-header">
+              <span class="lab-badge">Web App</span>
+              <h3>OWASP Juice Shop Lab</h3>
+            </div>
+            <p>
+              Intentionally vulnerable web app target for systematic web pentesting practice —
+              from recon to authenticated exploitation, methodically covering the OWASP Top 10.
+            </p>
+            <ul>
+              <li>Covered XSS, SQLi, broken auth, IDOR and insecure deserialization.</li>
+              <li>Outputs structured VAPT-style reports for each attack category.</li>
+            </ul>
+            <div class="lab-tags">
+              <span class="tag">owasp top 10</span>
+              <span class="tag">burp suite</span>
+              <span class="tag">web exploitation</span>
+            </div>
+          </article>
+
+          <article class="lab-card">
+            <div class="lab-header">
+              <span class="lab-badge">API</span>
+              <h3>End-to-End Phishing Simulation Lab</h3>
+            </div>
+            <p>
+              A complete phishing engagement built from scratch — OSINT to credential capture to report. Covers the full attacker workflow across infrastructure, tooling, evasion and social engineering.
+            </p>
+            <ul>
+              <li>Full phishing kill chain — OSINT recon, automated GoPhish deployment, cloned landing pages and live campaign execution.</li>
+              <li>Evilginx setup with custom phishlet to bypass MFA via session cookie theft.</li>
+              <li>Defense evasion and social engineering — infrastructure trust techniques, email evasion and pretext call + phishing.</li>
+            </ul>
+            <div class="lab-tags">
+              <span class="tag">gophish</span>
+              <span class="tag">evilginx</span>
+              <span class="tag">mfa bypass</span>
+              <span class="tag">social engineering</span>
+            </div>
+          </article>
+
+          <article class="lab-card">
+            <div class="lab-header">
+              <span class="lab-badge">AI / LLM</span>
+              <h3>Cloud Pentesting - AWS</h3>
+            </div>
+            <p>
+             End-to-end AWS penetration testing lab covering enumeration, exploitation and privilege escalation across core cloud services using real-world attack tooling.
+            </p>
+            <ul>
+              <li>Enumerated IAM, S3, Lambda and EC2 to uncover misconfigurations and exposed credentials.</li>
+              <li>Chained SSRF on EC2 to extract instance metadata, pivot credentials and invoke Lambda.</li>
+              <li>Escalated to admin via IAM policy enumeration and high-privilege role assumption.</li>
+            </ul>
+            <div class="lab-tags">
+              <span class="tag">aws pentesting</span>
+              <span class="tag">iam</span>
+              <span class="tag">EC2 + SSRF</span>
+              <span class="tag">pacu</span>
+               <span class="tag">cloudgoat</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CERTIFICATIONS ── -->
+    <section id="certs" class="section">
+      <div class="container section-inner">
+        <header class="section-header">
+          <div class="section-label">credentials</div>
+          <h2>Certifications</h2>
+          <p>Validated skills — not just lab badges.</p>
+        </header>
+
+        <div class="certs-grid">
+          <article class="cert-card">
+            <div class="cert-top">
+              <span class="cert-num">01</span>
+              <span class="cert-issuer">TCM Security</span>
+            </div>
+            <h3 class="cert-name">Practical SOC Analyst Associate</h3>
+            <p class="cert-desc">Hands-on SOC operations, incident handling, alert triage and detection engineering.</p>
+            <div class="cert-meta">
+              <span class="cert-id">ID: 170886651</span>
+              <span class="cert-badge psaa">PSAA</span>
+            </div>
+          </article>
+
+          <article class="cert-card">
+            <div class="cert-top">
+              <span class="cert-num">02</span>
+              <span class="cert-issuer">Udemy</span>
+            </div>
+            <h3 class="cert-name">Security+ (SY0-701)</h3>
+            <p class="cert-desc">Broad cybersecurity foundation — threats, architecture, implementation and operations.</p>
+            <div class="cert-meta">
+              <span class="cert-id">Security Fundamentals</span>
+              <span class="cert-badge comptia">Security+</span>
+            </div>
+          </article>
+
+          <article class="cert-card">
+            <div class="cert-top">
+              <span class="cert-num">03</span>
+              <span class="cert-issuer">TryHackMe</span>
+            </div>
+            <h3 class="cert-name">Web Application Pentesting</h3>
+            <p class="cert-desc">Systematic web app security testing — covering different vulnerabilities.</p>
+            <div class="cert-meta">
+              <span class="cert-id">THM-9727D1L7ZP</span>
+              <span class="cert-badge thm">THM</span>
+            </div>
+          </article>
+
+          <article class="cert-card">
+            <div class="cert-top">
+              <span class="cert-num">04</span>
+              <span class="cert-issuer">Simply Cyber</span>
+            </div>
+            <h3 class="cert-name">Hands-On Phishing</h3>
+            <p class="cert-desc">Practical phishing simulation design, execution and detection — from attacker perspective.</p>
+            <div class="cert-meta">
+              <span class="cert-id">Phishing Simulation</span>
+              <span class="cert-badge sc">Simply Cyber</span>
+            </div>
+          </article>
+
+          <article class="cert-card">
+            <div class="cert-top">
+              <span class="cert-num">05</span>
+              <span class="cert-issuer">Simply Cyber</span>
+            </div>
+            <h3 class="cert-name">Introduction to AWS Pentesting</h3>
+            <p class="cert-desc">Cloud attack surface enumeration and exploitation techniques on AWS environments.</p>
+            <div class="cert-meta">
+              <span class="cert-id">AWS Attack Surface</span>
+              <span class="cert-badge sc">Simply Cyber</span>
+            </div>
+          </article>
+
+          <article class="cert-card">
+            <div class="cert-top">
+              <span class="cert-num">06</span>
+              <span class="cert-issuer">Postman</span>
+            </div>
+            <h3 class="cert-name">API Fundamentals Student Expert</h3>
+            <p class="cert-desc">API design, testing, automation and security fundamentals via the Postman platform.</p>
+            <div class="cert-meta">
+              <span class="cert-id">Student Expert</span>
+              <span class="cert-badge postman">Postman</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── WRITING / BLOGS ── -->
+    <section id="writing" class="section section-alt">
+      <div class="container section-inner">
+        <header class="section-header">
+          <div class="section-label">medium · technical writing</div>
+          <h2>Writing</h2>
+          <p>Turning real attack paths and client lessons into knowledge.</p>
+        </header>
+
+        <div class="blog-grid">
+          <a class="blog-card" href="https://abhishekml.medium.com/mcp-under-attack-a-complete-security-breakdown-d39291eca13f" target="_blank" rel="noopener noreferrer">
+            <div class="blog-meta-top">
+              <span class="blog-date">Jan 2026</span>
+              <span class="blog-tag-chip">AI / LLM</span>
+            </div>
+            <h3>MCP Under Attack: A Complete Security Breakdown</h3>
+            <p>A deep dive into Model Context Protocol — attack surfaces it exposes and how security teams should approach MCP.</p>
+            <span class="blog-read">read article →</span>
+          </a>
+
+          <a class="blog-card blog-card-featured" href="https://abhishekml.medium.com/from-prompt-to-pwn-how-i-pen-tested-and-broke-a-llm-25471e1b22f3" target="_blank" rel="noopener noreferrer">
+            <div class="blog-meta-top">
+              <span class="blog-date">Nov 2025</span>
+              <span class="blog-tag-chip featured-chip">Case Study</span>
+            </div>
+            <h3>From Prompt to Pwn: How I Pen-Tested and Broke a LLM</h3>
+            <p>Behind the scenes of a real LLM pentest — methodology, vulnerabilities found and key takeaways from a live client engagement.</p>
+            <span class="blog-read">read article →</span>
+          </a>
+
+          <a class="blog-card" href="https://abhishekml.medium.com/yara-essentials-the-ultimate-guide-to-rule-based-detection-9f65437f2298" target="_blank" rel="noopener noreferrer">
+            <div class="blog-meta-top">
+              <span class="blog-date">Jun 2025</span>
+              <span class="blog-tag-chip">Detection</span>
+            </div>
+            <h3>YARA Essentials: The Ultimate Guide to Rule-Based Detection</h3>
+            <p>Crafting effective YARA rules — syntax deep dive and applying rule-based detection in real SOC environments.</p>
+            <span class="blog-read">read article →</span>
+          </a>
+
+          <a class="blog-card" href="https://abhishekml.medium.com/building-blocks-of-defense-key-frameworks-for-threat-intelligence-d6ca49fd619f" target="_blank" rel="noopener noreferrer">
+            <div class="blog-meta-top">
+              <span class="blog-date">Jun 2025</span>
+              <span class="blog-tag-chip">Threat Intel</span>
+            </div>
+            <h3>Building Blocks of Defense: Key Frameworks for Threat Intelligence</h3>
+            <p>Foundational frameworks powering modern threat intel — MITRE ATT&CK, Diamond Model and more.</p>
+            <span class="blog-read">read article →</span>
+          </a>
+
+          <a class="blog-card" href="https://abhishekml.medium.com/beyond-the-inbox-how-a-soc-team-dissects-phishing-emails-a5a7bf97fbb4" target="_blank" rel="noopener noreferrer">
+            <div class="blog-meta-top">
+              <span class="blog-date">Jun 2025</span>
+              <span class="blog-tag-chip">SOC</span>
+            </div>
+            <h3>Beyond the Inbox: How a SOC Team Dissects Phishing Emails</h3>
+            <p>How a SOC analyst systematically dissects and triages phishing email alerts — because APTs exploit humans first.</p>
+            <span class="blog-read">read article →</span>
+          </a>
+
+          <a class="blog-card" href="https://abhishekml.medium.com/api-hacking-deep-dive-part-1-your-starting-point-in-api-security-25502b80a5d0" target="_blank" rel="noopener noreferrer">
+            <div class="blog-meta-top">
+              <span class="blog-date">Oct 2024</span>
+              <span class="blog-tag-chip">API</span>
+            </div>
+            <h3>API Hacking Deep Dive, Part 1: Your Starting Point in API Security</h3>
+            <p>Reconnaissance, understanding API contracts, and identifying common vulnerabilities from the ground up.</p>
+            <span class="blog-read">read article →</span>
+          </a>
+        </div>
+
+        <div class="blog-cta">
+          <a href="https://abhishekml.medium.com/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            view all 10 articles on medium →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ACHIEVEMENTS ── -->
+    <section id="achievements" class="section">
+      <div class="container section-inner">
+        <header class="section-header">
+          <div class="section-label">milestones</div>
+          <h2>Achievements</h2>
+          <p>Things that say "this isn't just a lab hobby".</p>
+        </header>
+
+        <div class="achieve-grid">
+          <article class="achieve-card">
+            <span class="achieve-num">01</span>
+            <div>
+              <h3>Speaker — InfraSec Village, Seasides Conference</h3>
+              <p>Delivered a talk on <strong>Cloud Pentesting: Recon to Exploitation</strong> at InfraSec Village, India's largest security conference.</p>
+            </div>
+          </article>
+
+          <article class="achieve-card">
+            <span class="achieve-num">02</span>
+            <div>
+              <h3>Vice President — HashVault, BNMIT</h3>
+              <p>Co-founded and led BNMIT's cybersecurity club — organising CTFs, workshops and technical events to build campus security culture.</p>
+            </div>
+          </article>
+
+          <article class="achieve-card">
+            <span class="achieve-num">03</span>
+            <div>
+              <h3>Speaker — Null & OWASP Bangalore</h3>
+              <p>Shared knowledge on application security and offensive techniques at Null and OWASP Bangalore chapter meetups.</p>
+            </div>
+          </article>
+
+          <article class="achieve-card">
+            <span class="achieve-num">04</span>
+            <div>
+              <h3>Technical Blog Writer — Medium</h3>
+              <p>Published <strong>10+ technical articles</strong> covering web security, API hacking, SOC analysis, YARA, threat intel and AI/LLM security.</p>
+            </div>
+          </article>
+
+          <article class="achieve-card">
+            <span class="achieve-num">05</span>
+            <div>
+              <h3>PSAA Certified — TCM Security</h3>
+              <p>Earned the Practical SOC Analyst Associate certification, validating hands-on SOC operations and incident handling skills.</p>
+            </div>
+          </article>
+
+          <article class="achieve-card">
+            <span class="achieve-num">06</span>
+            <div>
+              <h3>AI / LLM Security Practitioner</h3>
+              <p>Early practitioner in LLM/AI security — real-world client engagements.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" class="section section-alt">
+      <div class="container section-inner">
+        <header class="section-header">
+          <div class="section-label">reach out</div>
+          <h2>Contact</h2>
+          <p>Want me to break something (safely)?</p>
+        </header>
+
+        <div class="contact-grid">
+          <div class="contact-body">
+            <p>
+              I'm open to VAPT / red team roles, focused app, network assessments, mobile application and LLM/AI security.
+              Happy to collaborate with in-house security teams or external consultancies.
+            </p>
+            <p>
+              Send me a target scope, constraints and timelines — we can talk about turning that into a realistic engagement.
+            </p>
+            <div class="contact-availability">
+              <span class="avail-dot"></span>
+              <span>Available for opportunities · Bangalore, India (IST)</span>
+            </div>
+          </div>
+          <div class="contact-actions">
+            <a href="mailto:abhisheklatte08@gmail.com" class="btn btn-primary btn-lg">✉ abhisheklatte08@gmail.com</a>
+            <a href="https://www.linkedin.com/in/abhishek-m-latte-5a4208259" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">linkedin</a>
+            <a href="https://abhishekml.medium.com/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">medium</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> abhishek m l · red team & vapt · bangalore</p>
+      <a href="#top" class="back-to-top">↑ back to top</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
